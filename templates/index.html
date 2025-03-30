@@ -5,8 +5,10 @@
 </head>
 <body>
     <h1>Hi! This is Tappu's ToDo List</h1>
+    <ul>
     {% for d in data %}
-        <li> {{ d.description }} </li>
+    <li> {{ d.description }} </li>
     {% endfor %}
+    </ul>
 </body>
 </html>
